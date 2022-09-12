@@ -1,0 +1,300 @@
+  275  git status
+  276  git config --local core.quotepath false
+  277  git status
+  278  git config --globalcore.quotepath false
+  279  git commit -m 'create 2directory and index.php in public'
+  280  git status
+  281  git log
+  282  git push origin master
+  283  git push origin master
+  284  git log
+  285  la
+  286  ls
+  287  cd linux_practice1
+  288  ls
+  289  cd public
+  290  ls
+  291  cp index.php index_bk.php
+  292  ls
+  293  git add .
+  294  git commit -m 'create copy index_bk.php'
+  295  ls
+  296  cp -r public tmp
+  297  cd 
+  298  ls
+  299  cd server_lesson/linux_practice1
+  300  ls
+  301  cp -r public tmp
+  302  ls
+  303  cd tmp && ls
+  304  rm index_bk.php
+  305  ls
+  306  cd /server_lesson
+  307  cd /
+  308  ls
+  309  cd root
+  310  ls
+  311  cd server_lesson
+  312  git add .
+  313  git commit -m 'create copy tmp directory the delete index_bk.php'
+  314  git log
+  315  touch README.md
+  316  ls
+  317  cd README.md
+  318  README.md
+  319  vi README.md
+  320  vi README.md
+  321  git add .
+  322  git status
+  323  git commit -m 'create README.md'
+  324  git push origin master
+  325  git log
+  326  vi README.md
+  327  git add .
+  328  git commit -m 'Changed README.md forgot to put a space'
+  329  git diff
+  330  git log
+  331  git push origin master
+  332  mkdir -p linux_practice2/documents
+  333  ls
+  334  cd linux_practice2 && ls
+  335  cd /server_lesson
+  336  cd /root
+  337  ls
+  338  server_lesson
+  339  cd server_lesson
+  340  git add .
+  341  git commit -m 'create directory linux_practice2 in documents'
+  342  git status
+  343  git log
+  344  git log
+  345  ls
+  346  cd linux_practice2/documents
+  347  touch gizumo{01..50}.md
+  348  ls
+  349  git add .
+  350  git status
+  351  git commit -m 'create 1~50 files in a document'
+  352  git log
+  353  ls
+  354  cd /root/server_lesson/linux_practice2
+  355  mkdir trash
+  356  ls
+  357  git add .
+  358  git commit -m 'create trash directory'
+  359  git status
+  360  mv documents/gizumo20.md trash
+  361  cd trash && ls
+  362  cd /root/server_lesson/linux_practice2
+  363  mv documents/gizumo{21..40}.md trash
+  364  cd trash && ls
+  365  cd /root/server_lesson/linux_practice2
+  366  git add .
+  367  git status
+  368  git commit -m 'Move document to trash gizumo20~40.md file'
+  369  git log
+  370  touch .gitignore
+  371  ls
+  372  ls -a
+  373  git status
+  374  git add .
+  375  git status
+  376  git commit -m 'create file .gitignore'
+  377  git log
+  378  ls
+  379  vi .gitignore
+  380  vi .gitignore
+  381  git status
+  382  git rm --cached trash/gizumo{20..29}.md
+  383  git log
+  384  git status
+  385  git add -n
+  386  git add -u
+  387  git status
+  388  cd trash && ls
+  389  cd /root/server_lesson/linux_practice2
+  390  git commit -m 'create .gitignore or exclude specified gizumo20~29.md'
+  391  git log
+  392  cd trash && ls
+  393  cd /root/server_lesson/linux_practice2
+  394  cd /root/server_lesson/linux_practice1
+  395  ls
+  396  cd /root/server_lesson
+  397  ls
+  398  vi README.md
+  399  git status
+  400  git add -u
+  401  git commit -m 'delete unnecessary file'
+  402  cd /root/server_lesson/linux_practice2
+  403  ls
+  404  touch exec_command.log
+  405  ls
+  406  history 300 > exec_command.log
+  407  ls
+  408  cd exec_command.log
+  409  cat exec_command.log
+  410  git status
+  411  git add .
+  412  git status
+  413  git rm --cached
+  414  git status
+  415  git reset HEAD .
+  416  git status
+  417  ls
+  418  vi gitignore
+  419  vi .gitignore
+  420  git status
+  421  git add .
+  422  git status
+  423  git reset HEAD .
+  424  git status
+  425  vi .gitignore
+  426  git status
+  427  git add .
+  428  git status
+  429  git reset HEAD .
+  430  git status
+  431  vi .gitignore
+  432  git status
+  433  git add .
+  434  git status
+  435  git reset HEAD .
+  436  git status
+  437  git rm -r --cached .
+  438  git status
+  439  git reset HEAD .
+  440  git status
+  441  git log
+  442  git rm --cached gizumo{20..29}.md
+  443  cd trash
+  444  git rm --cached gizumo{20..29}.md
+  445  git rm --cached gizumo20.md
+  446  ls
+  447  cd /root/server_lesson/linux_practice2
+  448  vi .gitignore
+  449  git rm --cached gizumo{20..29}.md
+  450  git rm -r --cached
+  451  git add .
+  452  git status
+  453  cd /root/server_lesson
+  454  git fetch origin master
+  455  git reset --hard origin/master
+  456  ls
+  457  git log
+  458  vi README.md
+  459  git status
+  460  git add .
+  461* 
+  462  git status
+  463  git commit -m 'delete unwanted data'
+  464  git status
+  465  git push origin master
+  466  git status
+  467  mkdir -p linux_practice2/documents
+  468  ls
+  469  git status
+  470  cd linux_practice2
+  471  ls
+  472  cd documents
+  473  touch Gizumo{01..50}.md
+  474  ls
+  475  cd /root/server_lesson/linux_practice2
+  476  mkdir trash
+  477  ls
+  478  mv documents/Gizumo{20..40}.md trash
+  479  cd trash
+  480  ls
+  481  cd /root/server_lesson/linux_practice2
+  482  cd documents && ls
+  483  cd /root/server_lesson/linux_practice2
+  484  ls -a
+  485  touch .gitignore
+  486  ls -a
+  487  vi .gitignore
+  488  git status --ignored
+  489  vi .gitignore
+  490  git status --ignored
+  491  git status 
+  492  vi .gitignore
+  493  git status --ignored
+  494  vi .gitignore
+  495  git status --ignored
+  496  git status
+  497  git status -uall
+  498  git status
+  499  vi .gitignore
+  500  git status
+  501  vi .gitignore
+  502  vi .gitignore
+  503  git status --ignored
+  504  git add .
+  505  git log
+  506  git status
+  507  git status --ignore
+  508  git status --ignored
+  509  vi .gitignore
+  510  git fetch origin master
+  511  git reset --hard origin/master
+  512  ls
+  513  cd /root/server_lesson
+  514  ls
+  515  git reset --hard origin/master
+  516  ls
+  517  linux_practice2
+  518  cd linux_practice2
+  519  vi .gitignore
+  520  ls -a
+  521  cd trash
+  522  ls
+  523  rm -Gizumo{20..29}.md
+  524  rm Gizumo{20..29}.md
+  525  git fetch origin master
+  526  git reset --hard origin/master
+  527  cd /root/server_lesson
+  528  ls
+  529  rm -rf linux_practice/trash
+  530  ls
+  531  rm -rf linux_practice2/trash
+  532  ls
+  533  rm -r linux_practice2/trash
+  534  rm -r linux_practice2
+  535  ls
+  536  git reset --hard origin/master
+  537  git log
+  538  git status
+  539  ls
+  540  git log
+  541  ls
+  542  git reset HEAD .
+  543  mkdir -p linux_practice2/documents
+  544  ls
+  545  cd linux_practice2/documents
+  546  touch gizumo{01..50}.md
+  547  ls
+  548  cd /root/server_lesson/linux_practice2
+  549  ls
+  550  mkdir trash
+  551  ls
+  552  mv documents/gizumo{20..40}.md trash
+  553  cd trash && ls
+  554  cd /root/server_lesson/linux_practice2
+  555  touch .gitignore
+  556  ls -a
+  557  vi .gitignore
+  558  git status
+  559  cd documents
+  560  ls
+  561  cd /root/server_lesson/linux_practice2
+  562  git add .
+  563  git status
+  564  git status --ignored
+  565  git commit -m 'create documents in gizumo01~50.md, move trash gizumo20~40.md, create .gitignore not managed gizumo20~29.md'
+  566  git log
+  567  cd root/server_lesson
+  568  cd /root/server_lesson
+  569  ls
+  570  cd linux_practicee2
+  571  cd linux_practice2
+  572  touch exec_command.log
+  573  ls
+  574  history 300 > exec_command.log
