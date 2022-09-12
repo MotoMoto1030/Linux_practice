@@ -1,0 +1,16 @@
+-Commands learned during Section 5
+ -ls -options path
+ -pwd
+ -cd path
+ -mkdir directory
+ -touch file
+ -&&
+ -cp copy source and point
+ -mv change source and point
+ -rm delete file
+ -rm -r  delete directory
+ -* ?
+ -cat
+ - >
+ - >>
+ -vi file 
