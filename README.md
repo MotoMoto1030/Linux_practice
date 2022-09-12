@@ -9,8 +9,5 @@
  - mv change source and point
  - rm delete file
  - rm -r  delete directory
- - * ?
  - cat
- - >
- - >>
  - vi file 
